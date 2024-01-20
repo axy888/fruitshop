@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html>
+    <title>FRUITSTORE</title>
+    <head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" />
+  <!--mấy cái symbol-->      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--mấy cái font chữ-->    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+  <!--font fire-->           <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+  <!--font neon-->           <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+        <script src="ready.js" defer></script>
+        <script src="main.js" defer></script>
+        <script src="search.js" defer></script>
+        <script src="suggest.js" defer></script>
+    </head> 
+    <body>
+        <div class="header">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="shop.html"><image src="picture/logo2.png"></image></a>
+                </div>
+                <div class="shopname">
+                    <div class="productfont"><p class="font-effect-neon">&nbsp&nbsp FRUITSTORE</p></div><!--font google effect-->
+                </div>
+            <nav>
+                <ul>
+                    <li><a href="shop.html"><strong>Home</strong></a></li>
+                    <div class="dropdown">
+                        <li>Product &nbsp;<i class="fa fa-caret-down" style="font-size:20px;"></i>
+                        <div class="dropdown-content">
+                            <a href="shopproduct.html">Fruits</a>
+                            <a href="shopvegetable.html">Vegetables</a>
+                            <a href="#">Others</a>
+                        </div>
+                    </li></div>
+                    <li class="cart"><a href="cart.html"><i class="fa fa-shopping-cart"><strong>Cart</strong><span>0</span></i></a></li>
+                    <li><a href="#"><strong>Contact</strong></a></li>
+                </ul>
+            </nav>
+            </div>
+        </div> 
+
+
+        <div class="wrapper">
+            <div class="search-input">
+              <a href="" target="_blank" hidden></a>
+              <input type="text" placeholder="Type to search..">
+              <div class="autocom-box">
+                <!-- here list are inserted from javascript -->
+              </div>
+              <div class="icon"><i class="fa fa-search"></i></div>
+            </div>
+          </div>
+
+
+        <h2 class="title">Vegetables</h2>
+        <div class="categories">
+            <div class="small">
+                <table>
+                    <tr>
+                        <td>
+                            <div class="row" data-name="p-1">
+                                <div class="col">
+                                    <img src="picture/bông cải.jpg">
+                                <h4>Bông cải xanh</h4>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <div class="cost">48.000đ/kg</div>
+                                </div> 
+                            </div>
+                        </td>
+                        <td>
+                            <div class="row" data-name="p-2">
+                                <div class="col">
+                                    <img src="picture/bắp.jpg">
+                                <h4>Bắp</h4>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <div class="cost">20.000đ/kg</div>
+                                </div> 
+                            </div>
+                        </td>
+                        <td>
+                            <div class="row" data-name="p-3">
+                                <div class="col">
+                                    <img src="picture/hành.jpg">
+                                <h4>Hành lá</h4>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+                                </div>
+                                <div class="cost">26.000đ/kg</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="row" data-name="p-4">
+                                <div class="col">
+                                    <img src="picture/tỏi.jpg">
+                                <h4>Tỏi</h4>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <div class="cost">28.000đ/kg</div>
+                                </div> 
+                            </div>
+                        </td>
+                        <td>
+                            <div class="row" data-name="p-5">
+                                <div class="col">
+                                    <img src="picture/salad.jpg">
+                                <h4>Xà lách</h4>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <div class="cost">35.000đ/kg</div>
+                                </div> 
+                            </div>
+                        </td>   
+                    </tr>  
+                </table> 
+                <table>
+                    <tr>
+                        <td>
+                            <div class="row" data-name="p-6">
+                                <div class="col">
+                                <img src="picture/ớt.jpg">
+                                <h4>Ớt</h4>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <div class="cost">145.000đ/kg</div>
+                                </div> 
+                            </div> 
+                        </td>
+                        <td>
+                            <div class="row" data-name="p-7">
+                                <div class="col">
+                                <img src="picture/đậu que.jpg">
+                                <h4>Đậu que</h4>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <div class="cost">35.000đ/kg</div>
+                                </div> 
+                            </div>
+                        </td>
+                        <td>
+                            <div class="row" data-name="p-8">
+                                <div class="col">
+                                <img src="picture/khoai.jpg">
+                                <h4>Khoai tây</h4>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+                                </div>
+                                <div class="cost">37.000đ/kg</div>
+                                </div> 
+                            </div>
+                        </td>
+                        <td>
+                            <div class="row" data-name="p-9">
+                                <div class="col">
+                                <img src="picture/rau muống.jpg">
+                                <h4>Rau muống</h4>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <div class="cost">10.000đ/kg</div>
+                                </div> 
+                            </div>
+                        </td>
+                        <td>
+                            <div class="row" data-name="p-10">
+                                <div class="col">
+                                <img src="picture/cà tím.jpg">
+                                <h4>Cà tím</h4>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <div class="cost">26.000đ/kg</div>
+                                </div> 
+                            </div>
+                        </td>   
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td>
+                            <div class="row" data-name="p-11">
+                                <div class="col">
+                                <img src="picture/carrot.jpg">
+                                <h4>Cà rốt</h4>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <div class="cost">28.000đ/kg</div>
+                                </div> 
+                            </div> 
+                        </td>
+                        <td>
+                            <div class="row" data-name="p-12">
+                                <div class="col">
+                                <img src="picture/đậu bắp.jpg">
+                                <h4>Đậu bắp</h4>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <div class="cost">33.000đ/kg</div>
+                                </div> 
+                            </div>
+                        </td>
+                        <td>
+                            <div class="row" data-name="p-13">
+                                <div class="col">
+                                <img src="picture/cà chua.jpg">
+                                <h4>Cà chua</h4>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+                                </div>
+                                <div class="cost">48.000đ/kg</div>
+                                </div> 
+                            </div>
+                        </td>
+                        <td>
+                            <div class="row" data-name="p-14">
+                                <div class="col">
+                                <img src="picture/hành tím.jpg">
+                                <h4>Hành tím</h4>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <div class="cost">40.000đ/kg</div>
+                                </div> 
+                            </div>
+                        </td>
+                        <td>
+                            <div class="row" data-name="p-15">
+                                <div class="col">
+                                <img src="picture/dưa leo.jpg">
+                                <h4>Dưa leo</h4>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <div class="cost">18.000đ/kg</div>
+                                </div> 
+                            </div>
+                        </td>   
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td>
+                            <div class="row" data-name="p-16">
+                                <div class="col">
+                                <img src="picture/bí đỏ.jpg">
+                                <h4>Bí đỏ</h4>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <div class="cost">12.000đ/kg</div>
+                                </div> 
+                            </div> 
+                        </td>
+                        <td>
+                            <div class="row" data-name="p-17">
+                                <div class="col">
+                                <img src="picture/ngò.jpg">
+                                <h4>Ngò</h4>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <div class="cost">50.000đ/kg</div>
+                                </div> 
+                            </div>
+                        </td>
+                        <td>
+                            <div class="row" data-name="p-18">
+                                <div class="col">
+                                <img src="picture/củ cải trắng.jpg">
+                                <h4>Củ cải trắng</h4>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+                                </div>
+                                <div class="cost">12.000đ/kg</div>
+                                </div> 
+                            </div>
+                        </td>
+                        <td>
+                            <div class="row" data-name="p-19">
+                                <div class="col">
+                                <img src="picture/rau dền.jpg">
+                                <h4>Rau dền</h4>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <div class="cost">23.000đ/kg</div>
+                                </div> 
+                            </div>
+                        </td>
+                        <td>
+                            <div class="row" data-name="p-20">
+                                <div class="col">
+                                <img src="picture/cải thảo.jpg">
+                                <h4>Cải thảo</h4>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <div class="cost">25.000đ/kg</div>
+                                </div> 
+                            </div>
+                        </td>   
+                    </tr>
+                </table>       
+            </div>
+         </div>
+                    
+        
+         
+         <div class="products-preview">
+
+            <div class="preview" data-target="p-1">
+               <span class="theclose"><i class="fa fa-times"></i></span>
+               <img src="picture/bông cải.jpg" alt="">
+               <h3>Bông cải xanh</h3>
+               <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+               </div>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+               <div class="cost">40000đ/kg</div>
+                <p class="add-cart" >&nbsp &nbsp &nbsp Buy &nbsp &nbsp &nbsp</p>
+               
+            </div>
+            <div class="preview" data-target="p-2">
+                <span class="theclose"><i class="fa fa-times"></i></span>
+                <img src="picture/bắp.jpg" alt="">
+                <h3>Bắp</h3>
+                <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="cost">30000đ/kg</div>
+                 <p class="add-cart" >&nbsp &nbsp &nbsp Buy &nbsp &nbsp &nbsp</p>
+                
+             </div>
+             <div class="preview" data-target="p-3">
+                <span class="theclose"><i class="fa fa-times"></i></span>
+                <img src="picture/hành.jpg" alt="">
+                <h3>Hành lá</h3>
+                <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="cost">26000đ/kg</div>
+                 <p class="add-cart" >&nbsp &nbsp &nbsp Buy &nbsp &nbsp &nbsp</p>
+                
+             </div>
+             <div class="preview" data-target="p-4">
+                <span class="theclose"><i class="fa fa-times"></i></span>
+                <img src="picture/tỏi.jpg" alt="">
+                <h3>Tỏi</h3>
+                <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="cost">28000đ/kg</div>
+                 <p class="add-cart" >&nbsp &nbsp &nbsp Buy &nbsp &nbsp &nbsp</p>
+                
+             </div>
+             <div class="preview" data-target="p-5">
+                <span class="theclose"><i class="fa fa-times"></i></span>
+                <img src="picture/salad.jpg" alt="">
+                <h3>Xà lách</h3>
+                <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="cost">35000đ/kg</div>
+                 <p class="add-cart" >&nbsp &nbsp &nbsp Buy &nbsp &nbsp &nbsp</p>
+                
+             </div>
+             <div class="preview" data-target="p-6">
+                <span class="theclose"><i class="fa fa-times"></i></span>
+                <img src="picture/ớt.jpg" alt="">
+                <h3>Ớt</h3>
+                <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="cost">145000đ/kg</div>
+                 <p class="add-cart" >&nbsp &nbsp &nbsp Buy &nbsp &nbsp &nbsp</p>
+                
+             </div>
+             <div class="preview" data-target="p-7">
+                <span class="theclose"><i class="fa fa-times"></i></span>
+                <img src="picture/đậu que.jpg" alt="">
+                <h3>Đậu que</h3>
+                <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="cost">35000đ/kg</div>
+                 <p class="add-cart" >&nbsp &nbsp &nbsp Buy &nbsp &nbsp &nbsp</p>
+                
+             </div>
+             <div class="preview" data-target="p-8">
+                <span class="theclose"><i class="fa fa-times"></i></span>
+                <img src="picture/khoai.jpg" alt="">
+                <h3>Khoai tây</h3>
+                <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="cost">37000đ/kg</div>
+                 <p class="add-cart" >&nbsp &nbsp &nbsp Buy &nbsp &nbsp &nbsp</p>
+                
+             </div>
+             <div class="preview" data-target="p-9">
+                <span class="theclose"><i class="fa fa-times"></i></span>
+                <img src="picture/rau muống.jpg" alt="">
+                <h3>Rau muống</h3>
+                <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="cost">10000đ/kg</div>
+                 <p class="add-cart" >&nbsp &nbsp &nbsp Buy &nbsp &nbsp &nbsp</p>
+                
+             </div>
+             <div class="preview" data-target="p-10">
+                <span class="theclose"><i class="fa fa-times"></i></span>
+                <img src="picture/cà tím.jpg" alt="">
+                <h3>Cà tím</h3>
+                <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="cost">30000đ/kg</div>
+                 <p class="add-cart" >&nbsp &nbsp &nbsp Buy &nbsp &nbsp &nbsp</p>
+                
+             </div>
+             <div class="preview" data-target="p-11">
+                <span class="theclose"><i class="fa fa-times"></i></span>
+                <img src="picture/carrot.jpg" alt="">
+                <h3>Cà rốt</h3>
+                <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="cost">30000đ/kg</div>
+                 <p class="add-cart" >&nbsp &nbsp &nbsp Buy &nbsp &nbsp &nbsp</p>
+                
+             </div>
+             <div class="preview" data-target="p-12">
+                <span class="theclose"><i class="fa fa-times"></i></span>
+                <img src="picture/đậu bắp.jpg" alt="">
+                <h3>Đậu bắp</h3>
+                <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="cost">30000đ/kg</div>
+                 <p class="add-cart" >&nbsp &nbsp &nbsp Buy &nbsp &nbsp &nbsp</p>
+                
+             </div>
+             <div class="preview" data-target="p-13">
+                <span class="theclose"><i class="fa fa-times"></i></span>
+                <img src="picture/cà chua.jpg" alt="">
+                <h3>Cà chua</h3>
+                <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="cost">30000đ/kg</div>
+                 <p class="add-cart" >&nbsp &nbsp &nbsp Buy &nbsp &nbsp &nbsp</p>
+                
+             </div>
+             <div class="preview" data-target="p-14">
+                <span class="theclose"><i class="fa fa-times"></i></span>
+                <img src="picture/hành tím.jpg" alt="">
+                <h3>Hành tím</h3>
+                <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="cost">30000đ/kg</div>
+                 <p class="add-cart" >&nbsp &nbsp &nbsp Buy &nbsp &nbsp &nbsp</p>
+                
+             </div>
+             <div class="preview" data-target="p-15">
+                <span class="theclose"><i class="fa fa-times"></i></span>
+                <img src="picture/dưa leo.jpg" alt="">
+                <h3>Dưa leo</h3>
+                <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="cost">30000đ/kg</div>
+                 <p class="add-cart" >&nbsp &nbsp &nbsp Buy &nbsp &nbsp &nbsp</p>
+                
+             </div>
+             <div class="preview" data-target="p-16">
+                <span class="theclose"><i class="fa fa-times"></i></span>
+                <img src="picture/bí đỏ.jpg" alt="">
+                <h3>Bí đỏ</h3>
+                <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="cost">30000đ/kg</div>
+                 <p class="add-cart" >&nbsp &nbsp &nbsp Buy &nbsp &nbsp &nbsp</p>
+                
+             </div>
+             <div class="preview" data-target="p-17">
+                <span class="theclose"><i class="fa fa-times"></i></span>
+                <img src="picture/ngò.jpg" alt="">
+                <h3>Ngò</h3>
+                <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="cost">30000đ/kg</div>
+                 <p class="add-cart" >&nbsp &nbsp &nbsp Buy &nbsp &nbsp &nbsp</p>
+                
+             </div>
+             <div class="preview" data-target="p-18">
+                <span class="theclose"><i class="fa fa-times"></i></span>
+                <img src="picture/củ cải trắng.jpg" alt="">
+                <h3>Củ cải trắng</h3>
+                <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="cost">30000đ/kg</div>
+                 <p class="add-cart" >&nbsp &nbsp &nbsp Buy &nbsp &nbsp &nbsp</p>
+                
+             </div>
+             <div class="preview" data-target="p-19">
+                <span class="theclose"><i class="fa fa-times"></i></span>
+                <img src="picture/rau dền.jpg" alt="">
+                <h3>Rau dền</h3>
+                <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="cost">30000đ/kg</div>
+                 <p class="add-cart" >&nbsp &nbsp &nbsp Buy &nbsp &nbsp &nbsp</p>
+                
+             </div>
+             <div class="preview" data-target="p-20">
+                <span class="theclose"><i class="fa fa-times"></i></span>
+                <img src="picture/cải thảo.jpg" alt="">
+                <h3>Cải thảo</h3>
+                <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="cost">30000đ/kg</div>
+                 <p class="add-cart" >&nbsp &nbsp &nbsp Buy &nbsp &nbsp &nbsp</p>
+                
+             </div>
+             
+         </div>
+            
+     
+                
+        
+        <div class="footer">
+            <div class="cointainer">
+                <div class="row2">
+                    <div class="footer-col1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and IOS</p>
+                    <div class="app-logo">
+                        <img src="picture/applogo1.png">
+                        <img src="picture/applogo2.png">
+                    </div>
+                    </div>
+                    <div class="logo">
+                        <img src="picture/logo.jpg">
+                    </div>
+                    <div class="footer-col2">
+                    <h3 align="right">Follow us</h3>
+                    <ul class="follow">
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p align="center">Copyright 2022: HuynhTuanDat</p>
+        </div>
+        </body>
+    
+</html>
